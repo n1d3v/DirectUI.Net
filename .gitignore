@@ -36,6 +36,7 @@ obj/x64/
 [Rr]eleases/x86/
 bin/x86/
 obj/x86/
+build/
 
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
