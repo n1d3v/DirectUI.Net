@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DirectUI">
+      <UniqueIdentifier>{2325fd54-9b8c-4123-8914-7457932208d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitives.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bind.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CAVI.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBase.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseCheckRadioButton.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseScrollBar.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CHScrollBar.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CCheckBox.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommandLink.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPushButton.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CListBox.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CListView.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CProgressBar.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CRadioButton.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CCSysLink.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrackBar.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTreeView.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CVScrollBar.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBoxGlyph.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Clipper.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Expando.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpandoButtonGlyph.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FontCheckOut.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="NavScoring.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigator.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PText.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Page.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextGraphic.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioButtonGlyph.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Repeater.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorNoDefault.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorSelectionItem.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorSelection.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="StyledScrollViewer.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="XBaby.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="XProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserSelection.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassInfo.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiAnimation.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiProxy.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementProviderManager.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PromptText.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PropNotify.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PVLLauncherTrigger.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PVLTrigger.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SemanticZoomToggle.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ValuePtr.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Accessibility.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\AccessibleButton.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\AnimationStrip.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\BehaviorEngine.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Button.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Browser.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\BehaviorEngineHelper.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\AutoButton.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CallstackTracker.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Combobox.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\DialogElement.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\ElementProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Element.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Edit.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\FillLayout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\ExpandCollapseProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ElementWithHWND.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Expandable.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\FontCache.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\FlowLayout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\GridLayout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\GridItemProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\GridProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Host.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\HWNDHost.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\HWNDElementProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\InvokeProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ItemList.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Layout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\LinkedList.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ManipulationHelper.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Macro.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\XElement.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Viewer.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\VerticalFlowLayout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Value.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\ValueProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UnknownElement.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\UiaSchema.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchSwitch.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchTooltip.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchSlider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchSelectProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchSelect.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchScrollViewer.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchScrollBar.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchHWNDElement.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchEditInner.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchEdit2.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchEditBase.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TouchButton.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\ToggleProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Thumb.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\TableProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\TableLayout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\TableItemProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\ShellBorderLayout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\SemanticController.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Sheet.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Selector.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\SelectionProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\SelectionItemProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ScrollViewer.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\ScrollProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\ScrollItemProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\RowLayout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ScrollBar.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\RichText.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\RepeatButton.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\RefPointElement.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\RefcountBase.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\RangeValueProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\PushButton.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Progress.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\PatternProvider.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\NineGridLayout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\NativeHWNDHost.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ModernProgressRing.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ModernProgressBar.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Misc.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\BorderLayout.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchCheckBox.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoLock.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoThread.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoVariant.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="StockBehaviors\ContextMenuBehavior.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Surface.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\XmlParser.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Thread.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Navigation.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Expression.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\InvokeManager.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAutomation\EventManager.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ElementHelpers.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Movie.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\SBAlloc.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\XHost.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\WizPageBase.h">
+      <Filter>Header Files\DirectUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectUI.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="msdef.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="msdef64.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

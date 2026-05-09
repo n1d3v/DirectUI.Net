@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>DirectUI.Net</RootNamespace>
+    <AssemblyName>DirectUI.Net</AssemblyName>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>latest</LangVersion>
+    <Configuration>Release</Configuration>
+    <Configurations>Debug;Release;DefaultSettings</Configurations>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libraries\x64\*" CopyToOutputDirectory="PreserveNewest" Link="Libraries\x64\%(Filename)%(Extension)" />
+    <Content Include="Libraries\Win32\*" CopyToOutputDirectory="PreserveNewest" Link="Libraries\Win32\%(Filename)%(Extension)" Condition="Exists('Libraries\Win32')" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Bridge\**" />
+    <Compile Remove="DUI-Bridge\**" />
+    <EmbeddedResource Remove="Bridge\**" />
+    <EmbeddedResource Remove="DUI-Bridge\**" />
+    <None Remove="Bridge\**" />
+    <None Remove="DUI-Bridge\**" />
+  </ItemGroup>
+</Project>
