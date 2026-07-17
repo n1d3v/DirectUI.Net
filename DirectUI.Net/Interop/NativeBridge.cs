@@ -203,14 +203,6 @@ namespace DirectUI.Net.Interop
 
         [UnmanagedFunctionPointer(CallingConvention.StdCall, CharSet = CharSet.Unicode)]
         [return: MarshalAs(UnmanagedType.Bool)]
-        private delegate bool Fn_SetCueBanner(IntPtr hwnd, string id, string text);
-
-        [UnmanagedFunctionPointer(CallingConvention.StdCall, CharSet = CharSet.Unicode)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        private delegate bool Fn_SetCueBannerItalic(IntPtr hwnd, string id);
-
-        [UnmanagedFunctionPointer(CallingConvention.StdCall, CharSet = CharSet.Unicode)]
-        [return: MarshalAs(UnmanagedType.Bool)]
         private delegate bool Fn_SetContentBitmap(IntPtr hwnd, string id, IntPtr hBitmap);
 
         [UnmanagedFunctionPointer(CallingConvention.StdCall)]
@@ -267,8 +259,6 @@ namespace DirectUI.Net.Interop
         private static readonly Fn_SetParseErrorCallback _SetParseCb = Load<Fn_SetParseErrorCallback>("DuiBridge_SetParseErrorCallback");
         private static readonly Fn_RunMessagePump _RunMessagePump = Load<Fn_RunMessagePump>("DuiBridge_RunMessagePump");
         private static readonly Fn_StopMessagePump _StopMessagePump = Load<Fn_StopMessagePump>("DuiBridge_StopMessagePump");
-        private static readonly Fn_SetCueBanner _SetCueBanner = Load<Fn_SetCueBanner>("DuiBridge_SetCueBanner");
-        private static readonly Fn_SetCueBannerItalic _SetCueBannerItalic = Load<Fn_SetCueBannerItalic>("DuiBridge_SetCueBannerItalic");
         private static readonly Fn_SetContentBitmap _SetContentBitmap = Load<Fn_SetContentBitmap>("DuiBridge_SetContentBitmap");
         private static readonly Fn_FreeString _FreeString = Load<Fn_FreeString>("DuiBridge_FreeString");
 
@@ -323,8 +313,6 @@ namespace DirectUI.Net.Interop
         public static void DuiBridge_SetParseErrorCallback(ParseErrorCallback callback, IntPtr context) => _SetParseCb?.Invoke(callback, context);
         public static void DuiBridge_RunMessagePump() => _RunMessagePump?.Invoke();
         public static void DuiBridge_StopMessagePump() => _StopMessagePump?.Invoke();
-        public static bool DuiBridge_SetCueBanner(IntPtr hwnd, string id, string text) => _SetCueBanner?.Invoke(hwnd, id, text) ?? false;
-        public static bool DuiBridge_SetCueBannerItalic(IntPtr hwnd, string id) => _SetCueBannerItalic?.Invoke(hwnd, id) ?? false;
         public static bool DuiBridge_SetContentBitmap(IntPtr hwnd, string id, IntPtr hBitmap) => _SetContentBitmap?.Invoke(hwnd, id, hBitmap) ?? false;
         public static void DuiBridge_FreeString(IntPtr str) => _FreeString?.Invoke(str);
 

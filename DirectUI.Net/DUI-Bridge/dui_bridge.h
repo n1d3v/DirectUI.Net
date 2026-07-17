@@ -80,9 +80,6 @@ DUI_BRIDGE_API void WINAPI DuiBridge_SetParseErrorCallback(PFNDUI_PARSEERROR pfn
 DUI_BRIDGE_API void WINAPI DuiBridge_RunMessagePump();
 DUI_BRIDGE_API void WINAPI DuiBridge_StopMessagePump();
 
-DUI_BRIDGE_API BOOL WINAPI DuiBridge_SetCueBanner(HWND hwnd, LPCWSTR pszId, LPCWSTR pszText);
-DUI_BRIDGE_API BOOL WINAPI DuiBridge_SetCueBannerItalic(HWND hwnd, LPCWSTR pszId);
-
 DUI_BRIDGE_API BOOL WINAPI DuiBridge_SetContentBitmap(HWND hwnd, LPCWSTR pszId, HBITMAP hBitmap);
 
 DUI_BRIDGE_API void WINAPI DuiBridge_FreeString(LPWSTR pszStr);

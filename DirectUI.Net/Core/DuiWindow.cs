@@ -116,9 +116,6 @@ namespace DirectUI.Net.Core
 
         public bool SetSheet(string elementId, string sheetResId) => NativeBridge.DuiBridge_SetSheet(_hwnd, elementId, sheetResId);
 
-        public bool SetCueBanner(string elementId, string text) => NativeBridge.DuiBridge_SetCueBanner(_hwnd, elementId, text);
-        public bool SetCueBannerItalic(string elementId) => NativeBridge.DuiBridge_SetCueBannerItalic(_hwnd, elementId);
-
         public bool SetContentBitmap(string elementId, IntPtr hBitmap) => NativeBridge.DuiBridge_SetContentBitmap(_hwnd, elementId, hBitmap);
 
         public DuiElement Element(string elementId) => new DuiElement(this, elementId);

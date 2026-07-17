@@ -64,9 +64,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="dui_bridge.h" />
+    <ClInclude Include="func_helpers.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dui_bridge.cpp" />
+    <ClCompile Include="func_helpers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="dui_bridge.def" />

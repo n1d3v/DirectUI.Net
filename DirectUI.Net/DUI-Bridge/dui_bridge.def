@@ -51,6 +51,5 @@ EXPORTS
     DuiBridge_SetParseErrorCallback
     DuiBridge_RunMessagePump
     DuiBridge_StopMessagePump
-    DuiBridge_SetCueBanner
-    DuiBridge_SetCueBannerItalic
+    DuiBridge_SetContentBitmap
     DuiBridge_FreeString

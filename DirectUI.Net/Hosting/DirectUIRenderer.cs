@@ -161,9 +161,6 @@ namespace DirectUI.Net.Hosting
 
         public DuiElement Element(string elementId) => _duiWindow?.Element(elementId);
 
-        public bool SetCueBanner(string elementId, string text) => _duiWindow?.SetCueBanner(elementId, text) ?? false;
-        public bool SetCueBannerItalic(string elementId) => _duiWindow?.SetCueBannerItalic(elementId) ?? false;
-
         public IDisposable BeginDefer() => _duiWindow?.BeginDefer();
 
         protected override void Dispose(bool disposing)
