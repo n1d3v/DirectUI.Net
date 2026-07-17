@@ -6,8 +6,8 @@
   </picture>
 </p>
 
-> [!WARNING]
-> This is an unfinished library, especially DUI-Bridge, it will have bugs that will be patched over time.
+> [!NOTE]
+> If you want to modify DirectUI.Net for personal use, such as adding custom features, **please use your own fork of this project and do not commit any custom functions!**
 
 DirectUI.Net is a library for C# (.NET) that allows you to use DirectUI in C# projects.
 # Why would you make this?
